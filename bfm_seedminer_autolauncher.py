@@ -160,7 +160,7 @@ with open('seedminer_launcher3.py') as f:
     line_num = 0
     for line in f:
         line_num += 1
-        if line_num != 1:
+        if line_num != 3:
             continue
         elif 'Seedminer v2.1.5' in line:
             break
